@@ -57,7 +57,7 @@ const Bookings = () => {
 
           <img className="img-block" src="./Rectangle 17.png" alt="" />
          <div className="dataTime-block">
-            <span>14-29 June</span>
+            <span>14-28 June</span>
             <span>by JR Martin</span>
             <div className="iconBlock">
                 <img  src="./Group.png" alt="" />
