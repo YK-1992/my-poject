@@ -1,0 +1,200 @@
+
+.b-wrapper{
+  
+    margin-top: 1rem;
+    color: black;
+    padding: 4rem;
+}
+
+
+.b-container{
+    display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+
+
+.left-section{
+   width: 65vh;
+   overflow: hidden;
+   text-align: left;
+   img{
+    width: 80px;
+   }
+}
+
+
+.block-info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+
+.b-textTitle{
+   gap: 3rem;
+   text-align: left;
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #181E4B;
+
+}
+h3{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: orangered;
+ 
+}
+span{
+    font-size: 16px;
+}
+}
+
+.book-info{
+    
+
+    display: flex;
+gap: 2rem;
+    align-items: center;
+    flex-direction: row;
+   
+
+}
+
+.b-text{
+    display: flex;
+    flex-direction: column;
+    color: #5E6282;
+    gap: 5px;
+    
+    h4{
+        color: #5E6282;
+    }
+}
+
+/* right-content */
+
+.right-container{
+    padding-right: 6rem;
+    background: #F5F5F5;;
+  
+}
+.right-selection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+    position: absolute;
+    gap: 2rem;
+   border-radius: 20px;
+   box-shadow: 2px 0 6px grey;
+}
+.img-block{
+    width: 290px;
+    padding: 13px;
+}
+.iconBlock{
+    margin: 4px;
+    gap: 3rem;
+   
+
+    img{
+        width: 20px;
+        margin-right: 20px;
+       
+
+       
+    }
+}
+
+.peopleBlock{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+
+}
+
+.herdsImg{
+    margin-left: 2rem;
+}
+
+.planer-block{
+    position: relative;
+    top: -2rem;
+    left: 12rem;
+    
+}
+.star-element{
+    position: relative;
+    top: 4rem;
+    right: 6rem;
+    z-index: -1;
+}
+
+.dataTime-block{
+    padding: 4px 6px;
+    margin-bottom: 4px;
+}
+
+
+@media  (max-width: 1340px) {
+    
+}
+
+
+
+
+@media (max-width: 968px){
+    .b-textTitle {
+        h1 {
+            font-size: 48px;
+            font-weight: 600;
+            color: #181E4B;
+            padding: 1rem;
+        }}
+
+        .block-info{
+            padding: 1rem;
+            margin-bottom: 4rem;
+        }
+}
+@media (max-width: 768px){
+    .b-textTitle {
+        width: 100%;
+        h1 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #181E4B;
+            padding: 1rem;
+        }
+}
+
+        .block-info{
+font-size: 10px;
+            padding: 1rem;
+            margin-bottom: 4rem;
+        }
+
+        .star-element {
+            position: relative;
+            top: 2rem;
+            right: 3rem;
+            z-index: -1;
+            img{
+                width: 130px;
+            }
+        }
+        .planer-block {
+            position: relative;
+            top: -2rem;
+            left: 8rem;
+        }
+        .img-element{width: 65px;}
+}

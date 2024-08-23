@@ -1,0 +1,26 @@
+.dopDawn-wrapper{
+    padding-top: 2rem;
+}
+
+.drop-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+    padding: 20px;
+    background: #f3f3f3d4;
+}
+
+.drop-container input{
+    background: transparent;
+    gap: 10px;
+    border: none;
+    border-right: 2px solid #f3f3f3b8;
+    color: white;
+    font-size: 15px;
+    text-shadow: 1px 0 6px black;
+    font-weight: 400;
+    text-align: center
+
+};
+
+

@@ -1,0 +1,16 @@
+.Partners{
+    height: 14vh;
+}
+.part-wrapper{
+    background: #f0f0f0ea;
+}
+
+
+.p-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+

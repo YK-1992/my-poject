@@ -1,0 +1,70 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  background: #F5F5F5;
+color: aliceblue;
+}
+
+
+.btn-start{
+  border-radius: 10px;
+  border: none;
+ 
+}
+
+.btn-tap{
+  background-color: #DF6951;
+  color: #ffff;
+padding: 1rem;
+
+
+}
+.btn-tap:hover{
+  background: #e48471;
+  cursor: pointer;
+}
+
+.App{
+  position: relative;
+}
+
+
+.headerNaviBlock{
+  background-image: url(./Rectangle.png);
+  background-size: cover;
+  background-position: center; /* Центрирование изображения */
+  background-repeat: no-repeat; /* Отключение повторения изображения */
+  height: 100vh; /* Высота блока на весь экран */
+  width: 100vw; /* Ширина блока на весь экран */
+}
+
+
+
+@mixin mobile{
+  @media(max-width: 738px){
+      @content;
+  }
+}
+@mixin mobile{
+  @media(max-width: 1024px){
+      @content;
+  }
+}
+@mixin mobile{
+  @media(max-width: 1366px){
+      @content;
+  }
+}
+

@@ -1,0 +1,63 @@
+.honey-wrapper{
+padding-top: 30px;
+  
+    color: black;
+}
+
+.honey-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+ gap: 4rem;
+    align-items: center;
+    overflow: hidden;
+}
+/* .info-motion{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 15rem;
+    height: 30rem;
+    border-radius: 15rem 15rem 0 0;
+    border: 2px solid rgba(63, 4, 4, 0.887);
+    border-bottom: none;
+
+} */
+
+.img-content{
+ 
+    width: 30rem;
+    height: 35rem;
+    overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgb(255, 255, 255, 0.12);
+
+    img{width: 100%; height: 100%;
+
+    }
+}
+.right-block{
+    width: 650px;
+   display: flex;
+   flex-direction: column;
+   
+   gap: 3rem;
+h1{
+    text-transform: uppercase;
+    color: orangered;
+    font-weight: 500;
+}
+h2{font-size: 50px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #181E4B;}
+}
+.btn-h{
+    padding: 13px;
+    border-radius: 10px;
+    border: none;
+    width: 24%;
+    overflow: hidden;
+}
+

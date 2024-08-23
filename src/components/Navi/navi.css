@@ -1,0 +1,19 @@
+.n-wrapper{
+    width: 100%;
+}
+.nav-container{
+    width: 65%;
+    height: 252px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin: 0 auto;
+   padding-top: 17rem;
+   font-size: 39px;
+    text-align: left;
+    font-weight: 900;
+
+}
+.nav-text{
+    line-height: 8vh;
+}
